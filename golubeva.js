@@ -17,5 +17,4 @@ function addLetterGrade(data) {
     return { ...student, letter };
   });
 }
-
 module.exports = { filterFailed, addLetterGrade };
